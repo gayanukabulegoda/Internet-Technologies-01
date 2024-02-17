@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson - Tables</title>
+    <style>
+        th {
+            background-color: aquamarine;
+        }
+        th, td {
+            border: 1px solid blueviolet;
+            text-align: center;
+        }
+        table {
+            border: 1px solid black;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <p>====== Simple HTML Table =====</p>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th> <!-- first child -->
+                <th>Last Name</th>  <!-- second child -->
+                <th>Contact No</th> <!-- third child -->
+                <th>Email</th>      <!-- fourth child -->
+                <th>City</th>       <!-- fifth child -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nisal</td>
+                <td>Perera</td>
+                <td>0702410876</td>
+                <td>nisal@gmail.com</td>
+                <td>Matara</td>
+            </tr>
+            <tr>
+                <td>Wimal</td>
+                <td>Silva</td>
+                <td>0772410876</td>
+                <td>wimal@gmail.com</td>
+                <td>Galle</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <br>
+    <p>====== Table with Head, Body, Foot ======</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Unit price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Graphic Card</td>
+                <td>020</td>
+                <td>40000.00</td>
+            </tr>
+            <tr>
+                <td>Mother Board</td>
+                <td>020</td>
+                <td>40000.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td colspan="2" style="text-align: right;">80000.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <table style="width: 400px; font-size: 40px;">
+        <tr style="height: 100px;">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+    </table>
+    <br>
+    <p>========== Merge Columns (Table colspan) ===========</p>
+    <table style="width: 400px; font-size: 40px;">
+        <tr style="height: 100px;">
+            <td colspan="2">1</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>5</td>
+            <td colspan="3">6</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>9</td>
+            <td colspan="2">10</td>
+            <td>12</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td colspan="3">13</td>
+            <td>16</td>
+        </tr>
+    </table>
+    <br>
+    <p>=========== Merge Rows (Table rowspan) ============</p>
+    <table style="width: 400px; height: 400px; font-size: 40px;">
+        <tr>
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td rowspan="3">8</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>15</td>
+        </tr>
+    </table>
+</body>
+</html>
