@@ -1,0 +1,35 @@
+p {
+  color: black;
+}
+
+.content {
+  color: brown;
+}
+
+#content-id {
+  color: darkgreen;
+}
+
+h4 {
+  color: blueviolet;
+}
+
+.card-title {
+  color: darkred;
+}
+
+#recipe-card-title {
+  color: darkslategrey;
+}
+
+div h4 {
+  color: cadetblue;
+}
+
+div .card-title {
+  color: darkolivegreen;
+}
+
+div #recipe-card-title {
+  color: blueviolet;
+}

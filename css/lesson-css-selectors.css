@@ -1,0 +1,62 @@
+/* 1.Element Selector */
+h2 {
+  color: blueviolet;
+}
+
+/* 2. ID Selector */
+#main-heading {
+  color: brown;
+}
+
+/* 3.Class selector */
+.heading-selector {
+  color: darkgreen;
+}
+
+/* 4.Attribute selector */
+input[type="text"] {
+  color: darkred;
+  background-color: lightcyan;
+}
+
+/* 5.Pseudo class selector */
+button:hover {
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+/* 6.Pseudo element selector */
+p::first-line {
+  color: darkblue;
+  font-weight: bold;
+}
+
+/* 7.Descendant selector (White-space combinator) */
+div h4 {
+  color: darkred;
+}
+
+div div h4 {
+  color: blueviolet;
+}
+
+/* 8. Child selector */
+/* (Selects all <h5> elements that are immediate children of <div> elements) */
+div > h5 {
+  font-weight: bold;
+  font-style: italic;
+  color: darkgreen;
+}
+
+/* 9.Adjacent sibling selector (+) */
+/* Select the <p> element that is immediately preceded by an <h2> element */
+h2 + p {
+  background-color: aqua;
+}
+
+/* 10.General sibling selector (~) */
+/* Selects all <p> elements that are siblings of an <h3> element */
+h6 ~ p {
+  background-color: yellowgreen;
+}

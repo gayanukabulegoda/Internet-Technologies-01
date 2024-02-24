@@ -1,0 +1,46 @@
+button {
+  background-color: black;
+  color: white;
+}
+
+/* Pseudo classes stylings */
+button:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: blueviolet;
+}
+
+li:first-child {
+  color: darkgreen;
+}
+
+li:nth-child(3) {
+  color: darkblue;
+}
+
+li:last-child {
+  color: brown;
+}
+
+/* Pseudo element stylings */
+p::before {
+    content: "Read this....";
+    color: brown;
+}
+
+p::after {
+    content: "....the End.";
+    color: blueviolet;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: blue;
+}
+
+p::first-line {
+    font-weight: bold;
+}
