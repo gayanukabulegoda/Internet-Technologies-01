@@ -1,0 +1,29 @@
+.main-card {
+  display: flex;
+}
+
+img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card {
+  height: 430px;
+  width: 400px;
+  margin: 12px;
+  padding: 12px 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: wheat;
+}
+
+.detail {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.top-cartoon {
+  color: red;
+}

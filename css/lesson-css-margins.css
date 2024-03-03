@@ -1,0 +1,21 @@
+/* body {
+  margin: 0;
+} */
+
+.box {
+  border: 1px;
+  margin: 25px;
+  width: 500px;
+  height: 350px;
+  color: white;
+}
+
+.box-1 {
+  padding: 25px;
+  background-color: red;
+}
+
+.box-2 {
+  padding: 15px;
+  background-color: green;
+}
