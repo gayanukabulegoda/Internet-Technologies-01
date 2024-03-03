@@ -1,0 +1,43 @@
+.box {
+  background: linear-gradient(to right, gold, black);
+  color: black;
+  border: 1px solid black;
+  height: 200px;
+  margin-top: 8px;
+}
+
+.box-pixels {
+  width: 400px;
+}
+
+.box-percentage {
+  width: 50%;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+
+.box-2 {
+  width: 50%;
+  background-color: black;
+  height: 100px;
+}
+
+/* body {
+    width: 400px;
+    border: 1px solid black;
+  } */
+  
+.box-3 {
+  width: 50vw;
+  height: 100px;
+}

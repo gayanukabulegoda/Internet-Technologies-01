@@ -1,0 +1,40 @@
+p {
+  /* border: 1px solid rebeccapurple; */
+  /* border-width: 8px; */
+  /* border-style: solid; */
+  /* border-color: rebeccapurple; */
+
+  /* border-top-width: 5px;
+  border-right-width: 15px;
+  border-bottom-width: 20px;
+  border-left-width: 15px; */
+
+  /* border-top-color: blueviolet;
+  border-right-color: orange;
+  border-bottom-color: brown;
+  border-left-color: green; */
+
+  /* border-top-style: dashed;
+  border-right-style: solid;
+  border-bottom-style: double;
+  border-left-style: groove; */
+
+  /* border-radius: 20px; */
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 16px; */
+
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px blueviolet;
+  /* padding: 16px; */
+
+  /* padding-top: 16px;
+  padding-right: 14px;
+  padding-bottom: 18px;
+  padding-left: 20px; */
+
+  /* padding: 16px 14px 18px 20px; */
+
+  padding: 10px 20px;
+}
