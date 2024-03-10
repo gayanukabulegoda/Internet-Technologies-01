@@ -1,0 +1,30 @@
+.container {
+  width: 90rem;
+  height: 50rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 12px;
+  row-gap: 12px; */
+  gap: 12px;
+}
+
+.container > div {
+  border: 2px solid black;
+  border-radius: 12px;
+  text-align: justify;
+  padding: 7px;
+  background-color: linen;
+}
+
+.container > div:nth-child(5) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nested > div {
+  border: 1px solid black;
+  padding: 8px;
+  margin: 2px;
+  border-radius: 12px;
+  background-color: lightgrey;
+}

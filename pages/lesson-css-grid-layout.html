@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson - CSS Grid Layout</title>
+    <style>
+      .container {
+        display: grid;
+        /* grid-template-columns: 20% 20% 20% 20% 20%;  */
+        /* grid-template-columns: 500px 500px 500px; */
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        /* grid-template-columns: repeat(4, 1fr); */
+        grid-template-columns: repeat(1, 1fr 2fr 3fr);
+      }
+      .container > div {
+        border: 1px solid black;
+      }
+      .container > div:nth-child(odd) {
+        background-color: lightgray;
+      }
+      .container > div:nth-child(even) {
+        background-color: lightcyan;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        fugit.
+      </div>
+    </div>
+  </body>
+</html>

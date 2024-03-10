@@ -1,0 +1,52 @@
+.box-1 {
+  width: 50vw;
+  height: 50vh;
+  border: 6px solid darkblue;
+  background-color: black;
+
+  /* position: static;
+    top: 50px;
+    left: 50px; */
+
+  /* position: relative;
+    top: 50px;
+    left: 50px; */
+
+  /* position: absolute;
+    top: 50px;
+    left: 50px; */
+
+  /* position: fixed;
+    top: 50px;
+    left: 50px; */
+
+  /* position: sticky;
+    top: 50px;
+    left: 50px; */
+}
+.box-2 {
+  width: 100px;
+  height: 100px;
+  border: 6px solid darkred;
+  background-color: darkslategrey;
+
+  /* position: static;
+    top: 50px;
+    left: 50px; */
+
+  /* position: relative;
+    top: 50px;
+    left: 50px; */
+
+  /* position: absolute;
+    top: 50px;
+    left: 50px; */
+
+  /* position: fixed;
+    top: 50px;
+    left: 50px; */
+
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
