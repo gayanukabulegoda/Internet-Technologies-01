@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  padding: 14px;
+  object-fit: cover;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 10px;
+  border-radius: 12px;
+  background-color: darkolivegreen;
+  box-shadow: 3px 3px 8px darkcyan;
+}
+
+.box-1 {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  border-radius: 12px;
+  background-color: bisque;
+}
+
+.box-2 {
+  margin: 20px;
+  height: 16em;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.box-1 p {
+  padding-left: 9px;
+}
+
+.box-2 p {
+  padding: 32px;
+  text-align: left;
+  text-overflow: clip;
+}
