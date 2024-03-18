@@ -1,0 +1,40 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  margin: 200px auto;
+
+  /* transition-property: background-color;
+  transition-duration: 2s; */
+
+  /* transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function:ease-in;
+  transition-delay: 1s; */
+
+  /* transition: width 2s ease-in 1s; */
+
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s; */
+
+  transition: all 2s ease-in 1s;
+}
+
+.box:hover {
+  width: 200px;
+  height: 250px;
+  background-color: brown;
+}
+
+.text {
+  text-align: center;
+  transition: all 2s ease-in-out 0.2s;
+}
+
+.text:hover {
+  color: brown;
+  font-size: 100px;
+  font-style: italic;
+}
