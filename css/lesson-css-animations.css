@@ -4,6 +4,12 @@ body {
   background-color: black;
 }
 
+img {
+  width: 70%;
+  padding-top: 2.4rem;
+  padding-left: 1.7rem;
+}
+
 .box {
   width: 200px;
   height: 200px;
@@ -27,6 +33,7 @@ body {
 .box-2 {
   top: 350px;
   left: 1000px;
+  border-radius: 16px;
 
   animation: up-down 4s ease-out infinite 0.5s;
 }
@@ -98,19 +105,13 @@ body {
 }
 
 @keyframes up-down {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(-202px);
-  }
-  50% {
-    transform: translateY(0px);
-  }
-  75% {
-    transform: translateY(-202px);
-  }
+  0%,
+  50%,
   100% {
     transform: translateY(0);
+  }
+  25%,
+  75% {
+    transform: translateY(-202px);
   }
 }

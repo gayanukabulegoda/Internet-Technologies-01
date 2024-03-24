@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 2%;
+  color: lightpink;
+}
+
+p {
+  margin: 2%;
+  color: lightskyblue;
+}
+
+/* @media screen and (max-width: 500px) {
+  h1 {
+    color: lightblue;
+  }
+  p {
+    color: lightpink;
+  }
+} */
+
+@media screen and (min-width: 500px) {
+  h1 {
+    color: lightgreen;
+  }
+  p {
+    color: lightyellow;
+  }
+}
